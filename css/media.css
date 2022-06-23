@@ -1,0 +1,82 @@
+@media only screen and (min-width : 320px) {}
+@media only screen and (min-width : 321px) {}
+@media only screen and (min-width : 576px) {
+  .container {
+    max-width: 540px;
+  }
+  .progress.progress_volume {
+    width: 77%;
+    min-width: 77%;
+  }
+}
+@media only screen and (min-width : 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media only screen and (min-width : 992px) {
+  .container {
+    max-width: 960px;
+  }
+  .player__controls {
+    height: 60px;
+    padding: 15px 31px;
+  }
+  .progress {
+    height: 5px;
+  }
+  .player__btn {
+    width: 31px;
+    height: 31px;
+  }
+}
+@media only screen and (min-width : 1024px) {
+  .progress.progress_player {
+    width: 60%;
+    min-width: 60%;
+    position: static;
+    transform: none;
+  }
+  .progress.progress_volume {
+    width: 15%;
+    min-width: 15%;
+  }
+}
+@media only screen and (min-width : 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+@media only screen and (min-width : 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+  .progress.progress_player {
+    width: 70%;
+    min-width: 70%;
+  }
+  .progress.progress_volume {
+    width: 15%;
+    min-width: 15%;
+  }
+}
+@media only screen and (min-width : 1500px) {
+  .container {
+    max-width: 1440px;
+  }
+  .player__overlay {
+    bottom: 85px;
+  }
+  .player__controls {
+    height: 85px;
+    padding: 25px 30px;
+  }
+  .progress {
+    height: 8px;
+  }
+  .player__btn {
+    width: 31px;
+    height: 31px;
+  }
+}
+
